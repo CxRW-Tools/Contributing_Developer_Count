@@ -20,4 +20,4 @@ python github_contributor_count.py REPO_FILE [OPTIONS]
 - `--token`: GitHub Personal Access Token (default: none, must be provided if not set in the script).
 - `--api_url`: GitHub API base URL (default: https://api.github.com).
 - `--output`: Path to save the CSV output file (default: contributors.csv).
-- `--debug`: Enable debug output (default: off).
+- `--debug`: Enable debug output (default: off). Note that all activities are automatically logged.
