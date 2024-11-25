@@ -1,5 +1,4 @@
 WebGoat/WebGoat
-cxrw/Vehicle-Dynamics-Application
 twentyhq/twenty
 leaningtech/webvm
 awslabs/multi-agent-orchestrator
