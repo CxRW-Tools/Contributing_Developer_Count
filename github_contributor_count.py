@@ -313,10 +313,10 @@ def process_repositories(repo_file, since_days, token, api_url, output_file, deb
 # Main
 def main():
     parser = argparse.ArgumentParser(description="Fetch GitHub contributors and their last commit info.")
-    parser.add_argument("repo_file", help="Path to the text file containing repositories in 'owner/repo' format.")
+    parser.add_argument("repo-file", help="Path to the text file containing repositories in 'owner/repo' format.")
     parser.add_argument("--days", type=int, default=90, help="Number of days to look back for contributions (default: 90).")
     parser.add_argument("--token", type=str, default=DEFAULT_TOKEN, help="GitHub personal access token (optional).")
-    parser.add_argument("--api_url", type=str, default=DEFAULT_GITHUB_API_URL, help="GitHub API URL (optional).")
+    parser.add_argument("--api-url", type=str, default=DEFAULT_GITHUB_API_URL, help="GitHub API URL (optional).")
     parser.add_argument("--output", type=str, default="contributors.csv", help="Output CSV file name (default: contributors.csv).")
     parser.add_argument("--debug", action="store_true", help="Enable debug output.")
     args = parser.parse_args()
